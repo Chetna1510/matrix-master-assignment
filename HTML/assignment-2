@@ -7,10 +7,10 @@
 <body>
     <h1>This is a Heading</h1>
     <p>This is a paragraph.</p>
-    <img src="image.jpg" />
+    <img src="image.jpg" alt="image">
     <a href="https://www.example.com">Visit Example Website</a>
     <div>
-        <button rol="button">Click Me!</button>
+        <button type="button">Click Me!</button>
         <p>Another paragraph in a div.</p>
     </div>
 </body>
