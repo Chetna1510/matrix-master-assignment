@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon Landing page</title>
+    <style>
+        * {
+            margin: 0; 
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" style="background-color: #151e26; height: 100px; padding: 0 30px;">
+        <header style="display: flex; justify-content: space-between; align-items: center; height: 100%;">
+            <!-- Logo -->
+            <div id="logo" style="color: white;">
+                <h1 style="margin:0; font-family: cursive;">MyLogo</h1>
+            </div>
+
+            <!-- Navigation -->
+            <div id="navbar">
+                <nav>
+                    <ul style="list-style: none; display: flex; gap: 1rem;">
+                        <li>
+                            <a href="#" style="background-color: rgb(145, 239, 234); color: rgb(223, 19, 19); text-decoration: none; padding: 10px 20px; border-radius: 5px; font-size: 18px;">Home</a>
+                        </li>
+                        <li>
+                            <a href="#subscribe" style="background-color: #ff5722; color: aquamarine; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-size: 18px;">Subscribe</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div id="main">
+        <main>
+            <div>
+                <div id="comingsoon_text" style="background-color: #151e26; height: 100px;">
+                    <h1 style="margin: 0; text-align:center; padding-top: 20px; font-size: 50px; color: rgb(145, 239, 234); font-family: cursive;">A Brand new website is Coming soon</h1>
+                </div>
+                <div id="img">
+                    <img src="img.avif" alt="Welcome image" style="width:100%; height: 800px;">
+                </div> 
+            </div>
+            <div style="background-color: rgb(182, 208, 207); padding: 40px;">
+                <section id="details" style="display: flex;">
+                    
+                    <!-- Subscribe Section -->
+                    <div id="subscribe">
+                        <div style="padding-bottom: 40px;">
+                            <h2 style="font-family: sans-serif;">Sign up for updates & stay in the know</h2>
+                        </div>
+                        <div>
+                            <form action="">
+                                <label for="subscriber_email">Email</label><br>
+                                <input type="email" name="subscriber_email" id="subscriber_email" required><br>
+                                <input type="checkbox" name="agree" id="agree"> Yes, subscribe me to your newsletter.
+                                <button type="submit" style="margin-left: 100px; background-color: #ff5722; color: aquamarine; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-size: 14px;">Subscribe</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+            
+                    <!-- Contact Section -->
+                    <div id="contact" style="margin-left: 500px; align-items: center;">
+                        <h2 style="margin-bottom: 30px; font-family: sans-serif;">Contact Us</h2>
+                        
+                        <div style="display: flex;">
+                            <ul style="list-style: none;">
+                                <li>info@mysite.com</li>
+                                <li>123-456-7890</li>
+                                <li>Rotterdam</li>
+                            </ul>    
+                    
+                            <ul style="list-style: none; margin-left: 100px;">
+                                <li>Instagram</li>
+                                <li>Facebook</li>
+                                <li>LinkedIn</li>
+                                <li>WhatsApp</li>
+                            </ul>
+                        </div>   
+                    </div>
+                </section>
+            </div>            
+        </main>
+    </div>
+    
+    <div id="footer" style="background-color: black; height: 50px;">
+        <footer style="display: flex; align-items: center; height: 100%; color: white; gap: 50px;">
+            <p style="margin: 0;">&copy; 2025 by ABC</p>
+            <p style="margin: 0;">Privacy Policy</p>
+        </footer>
+    </div>
+</body>
+</html>
