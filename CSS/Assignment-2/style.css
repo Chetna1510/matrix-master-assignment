@@ -1,55 +1,78 @@
 * {
-    margin: 5px;
-    padding: 5px;   
+    margin: 0;
+    padding: 0;
 }
-
-#container {
-    height: 550px;
-    width: 950px;
-    background-color: silver;
-    margin: 0 auto;
-}
-
-#header {
-    height: 150px;
-    background-color: blue;
-    position: relative;
-}
-
-#nav_bar {
-    height: 300px;
-    width: 180px;
-    background-color: red; 
-    position: absolute;
-    top: 100%;
-    margin-top: 10px;
-    left: -5px;
-    
-   }
-
-#main_content {  
-    height: 360px;
-    width: 725px;
-    background-color: yellow; 
-    right: 100px;
-    margin-left: 200px; 
-    margin-top: -5px;
-    
-   }
-.subcontent-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.subcontent {
+.logo {
     height: 200px;
-    width: 200px;
-    background-color: purple;
-   }
+}
 
-#advertisements {
+#logo { 
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.search_section {
+    background-color: #edecec;
+    text-align: center;
+    height: 100px;
+    margin-bottom:2px;
+
+}
+
+input[type="search"] {
+    width: 300px;     
+}
+
+.search_buttons {
+    padding: 0.5px;
+}
+.success {
+    border-color: rgb(50, 133, 241);
+}
+
+.container {
+    display: flex;
+    gap: 1px; /* 1px space between boxes */
+    text-align: center;
+}
+
+.search_details {
+    background-color: aqua;
+    height: 80px;
+    flex: 1; /* Equal width */
+    padding-top: 10px;
+}
+
+.search_details a {
+    display: block; /* now it starts on a new line and can have width/height */
+}
+
+.google_details {
+    background-color: rgb(35, 219, 219);
+    flex: 1; /* Equal width */
+    height: 80px;
+    padding-top: 10px;
+}
+.google_details a {
+    display: block; /* now it starts on a new line and can have width/height */
+}
+
+.subscribe {
+    background-color: rgb(42, 202, 202);
     height: 90px;
-    width: 670px;
-    background-color: pink;
-    margin-left: 15px;
-   }
+    flex: 1; /* Equal width */
+}
+
+.subscribe_details { 
+    display: inline-grid;
+    gap: 1px; /* adds space between items */
+    padding: 1px;
+}
+
+footer { 
+    text-align: center;
+    padding-top: 10px;
+}
+
