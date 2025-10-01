@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+h1 { 
+	font-size: 25px;
+	color: #4E9CC6; }
+
+
+p { 
+	font-size: 15px; 
+}
+
+a { 
+	color: #4b3885;
+	text-decoration: none; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.linkedin-page .linkedin-header {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.branding img {
+	height: 50px;
+	width: 150px;
+}
+
+.navbar a {
+	padding: 0 5px;
+    font-size: 13px;
+	font-weight: 800;
+}
+
+.linkedin-content-area .upper-line {
+	height: 3px;
+	background-color: #4E9CC6;
+	margin: 0 20px;
+}
+.linkedin-content-area .linkedin-welcome-page {
+	height: 600px;
+	background-color: #cdcbcb;
+	display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;     /* centers vertically */
+	margin: 0 20px;
+	
+}
+
+.linkedin-content-area .bottom-line {
+	background-color: grey;
+	height: 3px;
+	margin: 0 20px;
+}
+
+.linkedin-content-area .linkedin-welcome-page .linkedin-content-box {
+	background-color: white;
+	height: 500px;
+	width: 80%;
+}
+
+.linkedin-welcome-page .linkedin-content-box .registration-area {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.registration-area .linkedin-details h1 {
+	margin: 10px;
+}
+.registration-area .linkedin-details .linkedin-details-wrap {
+	padding-top: 10px;
+	height: 250px;
+}
+
+.linkedin-details-wrap .linkedin-services {
+	display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.linkedin-services img {
+    width: 80px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.linkedin-services p {
+    margin-top: 10px;
+	color: #777; 
+}
+
+.registration-form{
+	height: 200px;
+	width: 40%;
+	padding-top: 30px;
+}
+
+.registration-form .form-box {
+	border: 1px solid grey;
+	border-radius: 8px 8px 8px 8px;
+	height: 280px;
+	width: 80%;
+	margin-top: -10px;
+
+}
+
+.registration-form .form-box h3 {
+	background-color:  #4E9CC6;
+	height: 30px;
+    border-radius: 8px 8px 0 0;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+}
+
+.registration-form .form-box .form-group {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	margin: 20px;
+	text-align: end;
+}
+
+.form-box label {
+    display: inline-block;
+    width: 90px;   /* fixed width for alignment */
+    font-weight: bold;
+}
+
+.form-box input {
+    flex: 1;
+	margin: 1px 10px;
+	padding: 2px;
+}
+
+.form-box button {
+	background-color: hsl(84, 47%, 56%);
+	width: 110px;
+	border: 1px solid green;
+	font-size: 14px;
+	margin-left: 120px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.form-box p {
+	margin-left: 120px;
+}
+
+.separation {
+	margin: 10px 30px 30px 30px;
+}
+
+.search-area .search-bar label {
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 18px;
+	padding-left: 150px;
+
+}
+.search-area .search-bar input {
+	padding: 3px;
+	margin: 7px;
+	
+}
+.search-area .search-bar button {
+	padding: 6px 8px;
+	background-color: #ccc;
+	border: none;
+}
+.people-dir {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: -150px;
+}
+.people-dir p:first-child {
+	color: #777; 
+}
+.people-dir p {
+	display: inline-block;
+    margin-right: 10px; /* spacing */
+	word-spacing: 5px;
+	font-size: 14px;
+}
+
+.letters {
+	color: #4E9CC6;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+footer {
+	background-color: rgb(235, 233, 233);
+	height: 200px;
+	margin: 0 20px;
+}
+
+.linkedin-footer-block {
+	margin-left: 150px;      
+	padding: 20px;
+}
+
+.linkedin-company, .linkedin-tools, .linkedin-products {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.linkedin-company > p, .linkedin-tools p, .linkedin-products p {
+	font-weight: bold;
+    margin: 0;
+    margin-right: 20px;
+    min-width: 100px;
+}
+
+.company-list-items ul {
+    list-style: none;
+}
+
+.list-items ul li {
+	display: inline;
+	margin: 3px;
+}
+
+.list-items ul li a{
+	padding: 0 5px;
+}
+
+.linkedin-corporation {
+	
+	font-size: 14px;
+	font-weight: 100;
+	margin-top: 15px;
+	color: #777; 
+}
+
+.terms {
+	margin-bottom: 50px;
+	margin-top: 5px;
+	color: #777; 
+}
