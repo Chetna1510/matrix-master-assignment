@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h1, h1 > a {
+    font-size: 34px;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(212, 209, 209);
+    margin: 50px auto; /* this line already centers horizontally */
+}
+
+.site-header > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px;
+}
+
+.region-title {
+    background-color: silver;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+}
+
+/* Increase size of the select dropdown */
+.other-craigslist select {
+    width: 150px;  
+    height: 25px;  /* Height of select box */
+    font-size: 16px; /* Increase text size */
+}
+
+/* Increase size of the button */
+.other-craigslist button {
+    width: 50px;   /* Width of button */
+    height: 25px;  /* Height of button */
+    font-size: 16px; /* Increase text size */
+}
+
+aside {
+    display: inline-block;
+    margin: 30px 20px;
+    background-color: rgb(203, 202, 202);
+    height: 650px;
+    width: 230px;
+    
+}
+
+.help-links, .search-box, .info-links {
+    padding: 10px; 
+}
+
+.sidebar-section {
+    margin-bottom: 10px;
+}
+
+.sidebar-section a {
+    background-color: white;
+    margin: 2px;
+}
+
+.search-box {
+    background-color: rgb(171, 170, 170);
+    margin: 15px 0;
+}
+
+.search-box label {
+    font-weight: bold;
+    background-color: rgb(241, 237, 237);
+}
+.search-box input {
+    width: 150px;
+    margin: 1px 0;
+}
+
+.search-box select {
+    width: 150px;
+    margin: 1px 0;
+    font-size: 18px;
+}
+
+.search-box button {
+    padding: 3px 10px;
+    margin: 1px 0;
+    font-size: 18px;
+}
+
+.info-links a,
+.info-links p {
+    display: block;  
+    text-align: center;
+}
+
+#questions {
+    background-color: white;
+    font-size: 20px;
+}
+
+.info-links p {
+    font-size: large;
+}
+
+.column {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.section {
+    padding-bottom: 20px;
+    background-color: rgb(212, 209, 209);
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+  th,
+  td {
+    border-bottom: 1px solid #cecfd5;
+    padding: 10px 15px;
+  }
+
+.column h2 {
+    background-color: #eeeeee;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.column h3 {
+    background-color: #eeeeee;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0 10px 0;
+}
+
+.column a {
+    display: block;
+    margin: 3px 0;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.section-header {
+    background: #ddd;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 2px 5px;
+    border-bottom: 1px solid #ddd;
+}
+tr:last-child td {
+    border-bottom: none;
+}
