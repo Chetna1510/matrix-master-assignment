@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize Landing Page</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="teal darken-2">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">My Site</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Side Navigation -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <main>
+        <div class="here-section">
+            <div class="container center-align">
+                <h1>Welcome to Our Platform</h1>
+                <p class="flow-text">Experience responsive design at its finest</p>
+                <div style="margin-top: 30px;">
+                    <a class="waves-effect waves-light btn-large blue" style="margin: 10px;">
+                        <i class="material-icons left">cloud</i>Get Started
+                    </a>
+                    <a class="waves-effect waves-light btn-large orange" style="margin: 10px;">
+                        <i class="material-icons left">info</i>Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-section">
+            <div class="container">
+                <h4 class="center-align">Our Features</h4>
+                <div class="responsive-table" style="margin-top: 30px;">
+                    <table class="striped highlight centered">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Description</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Responsive Design</td>
+                                <td>Adapts to all screen sizes</td>
+                                <td><span class="badge green white-text">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Material Design</td>
+                                <td>Beautiful UI components</td>
+                                <td><span class="badge green white-text">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Easy Integration</td>
+                                <td>Simple to implement</td>
+                                <td><span class="badge green white-text">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Cross-browser Support</td>
+                                <td>Works on all modern browsers</td>
+                                <td><span class="badge green white-text">Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mobile-first</td>
+                                <td>Optimized for mobile devices</td>
+                                <td><span class="badge green white-text">Active</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer teal darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">Built with Materialize CSS framework for responsive web design.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2025 Materialize Landing Page
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
