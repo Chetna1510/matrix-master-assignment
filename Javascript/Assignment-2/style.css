@@ -1,0 +1,55 @@
+
+
+/* Form styling */
+#my-form {
+    background-color: #f4f4f4; /* light gray */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+#my-form h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#my-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* List styling */
+.items {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.items li {
+    padding: 10px;
+    margin-bottom: 5px;
+}
