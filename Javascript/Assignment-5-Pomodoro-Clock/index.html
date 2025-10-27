@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="settings">
+            <div class="setting">
+                <p>BREAK:</p>
+                <div class="control">
+                    <button id="break-time-decrement">-</button>
+                    <span id="break-time-length">5</span>
+                    <button id="break-time-increment">+</button>
+                </div>
+            </div>
+            <div class="setting">
+                <p>WORK:</p>
+                <div class="control">
+                    <button id="work-time-decrement">-</button>
+                    <span id="work-time-length">25</span>
+                    <button id="work-time-increment">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="timer">
+            <div class="circle">
+                <div class="inner-circle"></div>
+                <div class="countdown">
+                    <h3 id="timer-display">25:00</h3>
+                    <p id="play-pause">Play</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <i class="fa fa-gear fa-spin" style="font-size:24px"></i>
+            <p>A <a href="#">Pomodoro</a> Clock.</p>
+        </footer>
+    </div>
+</body>
+</html>
