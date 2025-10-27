@@ -1,4 +1,4 @@
-Objective: Build an app that is functionally similar to this.
+Objective: Build an app that is functionally similar to Pormodoro clock.
 
 Fulfill the USER STORIES below. Use whichever libraries or APIs you need. 
 
