@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Objective: Build an app that is functionally similar to Pormodoro clock.
+=======
+Objective: Build an app that is functionally similar to Pomodoro Clock.
+>>>>>>> da9f398 (Restructured the file folders)
 
 Fulfill the USER STORIES below. Use whichever libraries or APIs you need. 
 
