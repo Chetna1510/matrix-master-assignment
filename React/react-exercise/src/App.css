@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#prop-test {
+  font-size: 40px;
+  color: red;
+}
+
+.header {
+  border: 1px solid blue;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.play-with-number {
+  display: flex;
+  gap: 20px;
+  margin: 40px;
+}
+
+.live-preview {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.user-info {
+  margin: 40px;
+  font-size: 20px;
+  border: 2px solid green;
+}
