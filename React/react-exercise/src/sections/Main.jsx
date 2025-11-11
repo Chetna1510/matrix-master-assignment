@@ -34,6 +34,7 @@ export default class Main extends Component {
       <div>
           <div className='main'>
             <div className='play-with-number'>
+              <h1 style={{ color: "red"}}>This is example of setState: </h1>
               <h1>{this.state.title}</h1>
               <button id='min' onClick={this.min}>-</button>
               <h1 id='number'>{this.state.number}</h1>

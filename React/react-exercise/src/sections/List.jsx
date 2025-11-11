@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function List(colorProp) {
-    console.log(colorProp);
+    //console.log(colorProp);
   return (
     <div>
         <div className='colors-list'>

@@ -1,7 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 20px;
+  margin: auto;
+  margin-top: 5px;
 }
 
 #prop-test {
@@ -9,7 +15,26 @@
   color: red;
 }
 
-.header {
+.header-links {
+  list-style:  none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0 10px;
+  background-color: darkred;
+  color: white;
+}
+
+.header-links a:hover{
+  background-color: white;
+  color: darkred;
+}
+
+.component-example {
   border: 1px solid blue;
   margin: 20px;
   font-size: 20px;
@@ -30,4 +55,37 @@
   margin: 40px;
   font-size: 20px;
   border: 2px solid green;
+}
+
+.react-lifecycle {
+  margin: 40px;
+  border: 2px solid brown;
+}
+
+.react-hooks {
+  margin: 40px;
+  border: 2px solid black;
+ 
+}
+
+.react-hooks button{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.hooks{
+  text-decoration: underline 2px solid purple;
+  margin: 10px;
+  border: 2px solid purple;
+  padding: 20px;
+}
+
+.users-container {
+  border:  2px solid red;
+  margin: 40px;
+  padding: 20px;
+}
+
+.users-container h1 {
+  margin-bottom: 15px;
 }
