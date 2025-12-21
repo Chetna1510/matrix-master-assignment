@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Listings</title>
+</head>
+<body>
+
+<h1>All Listings</h1>
+
+<a href="/listings/new">Add New Listing</a> |
+<a href="/logout">Logout</a>
+
+<hr>
+
+{% for listing in listings %}
+    <p>
+        <strong>{{ listing.title }}</strong><br>
+        Price: ${{ listing.price }}<br>
+        <a href="/listings/{{ listing.id }}">View Listing</a>
+    </p>
+    <hr>
+{% empty %}
+    <p>No listings available.</p>
+{% endfor %}
+
+</body>
+</html>

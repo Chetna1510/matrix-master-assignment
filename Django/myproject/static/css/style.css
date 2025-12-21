@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+}
+
+h1,
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+}

@@ -9,7 +9,7 @@ def index(request):
     context = {
         "all_collection": all_collection
     }
-    return HttpResponse("<h1>Hello World</h1>")
+    return render(request, "genre\\genretemplate.html", context)
 
 
 def details(request, gener_id):

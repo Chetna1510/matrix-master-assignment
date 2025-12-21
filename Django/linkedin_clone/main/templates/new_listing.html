@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Listing</title>
+</head>
+<body>
+
+<h1>Add New Listing</h1>
+
+{% if messages %}
+  {% for message in messages %}
+    <p style="color:red">{{ message }}</p>
+  {% endfor %}
+{% endif %}
+
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="title" placeholder="Title"><br><br>
+    <textarea name="description" placeholder="Description"></textarea><br><br>
+    <input type="text" name="price" placeholder="Price"><br><br>
+    <button type="submit">Create Listing</button>
+</form>
+
+<br>
+<a href="/listings">Back to Listings</a>
+
+</body>
+</html>
